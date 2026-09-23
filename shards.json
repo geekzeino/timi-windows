@@ -1,0 +1,235 @@
+{
+ "schema_version": 1,
+ "generated": "2026-09-10",
+ "source": "zai pool measured live via zai_shards.shards() (slugs only, no keys); claude pool slots read from ~/.claude-accounts/state.json cooldowns (local-store-readonly; auth2api 127.0.0.1:8319/admin/accounts refused unauthenticated — recorded in gaps); codex/deepseek solo accounts from the Linux suite's SOLO_EXPECTED ground truth (timi-shard-everywhere.test.py). zai rows are account-namespaced (zai:<slug>) because Windows resolves account -> ~\\.claude-cfg\\<account> in ONE namespace; the Linux pools reuse the same human slugs across claude and zai, and an unnamespaced zai pick would collide with the claude pool's config dir.",
+ "gaps": [
+  "auth2api admin accounts endpoint answered {\"error\":{\"message\":\"Missing API key\"}} unauthenticated — claude-pool states derived from local cooldown timestamps instead of live quota; refresh this manifest when a keyed read is available",
+  "no rotating codex pool store exists on this host; every codex-vendor lane carries the single ChatGPT login the codex CLI actually bills here"
+ ],
+ "shards": [
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "main",
+   "account": "main",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "acc2",
+   "account": "acc2",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "geekzeino",
+   "account": "geekzeino",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "zeinobusiness",
+   "account": "zeinobusiness",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "account_shared",
+   "account": "account_shared",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "zeinotv",
+   "account": "zeinotv",
+   "state": "ready"
+  },
+  {
+   "provider": "opus",
+   "vendor": "claude",
+   "slug": "gold1",
+   "account": "gold1",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "main",
+   "account": "main",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "acc2",
+   "account": "acc2",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "geekzeino",
+   "account": "geekzeino",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "zeinobusiness",
+   "account": "zeinobusiness",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "account_shared",
+   "account": "account_shared",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "zeinotv",
+   "account": "zeinotv",
+   "state": "ready"
+  },
+  {
+   "provider": "sonnet",
+   "vendor": "claude",
+   "slug": "gold1",
+   "account": "gold1",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "main",
+   "account": "main",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "acc2",
+   "account": "acc2",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "geekzeino",
+   "account": "geekzeino",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "zeinobusiness",
+   "account": "zeinobusiness",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "account_shared",
+   "account": "account_shared",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "zeinotv",
+   "account": "zeinotv",
+   "state": "ready"
+  },
+  {
+   "provider": "fable",
+   "vendor": "claude",
+   "slug": "gold1",
+   "account": "gold1",
+   "state": "ready"
+  },
+  {
+   "provider": "glm",
+   "vendor": "zai",
+   "slug": "geekzeino",
+   "account": "zai:geekzeino",
+   "state": "ready"
+  },
+  {
+   "provider": "glm",
+   "vendor": "zai",
+   "slug": "zeinobusiness",
+   "account": "zai:zeinobusiness",
+   "state": "ready"
+  },
+  {
+   "provider": "glmflash",
+   "vendor": "zai",
+   "slug": "geekzeino",
+   "account": "zai:geekzeino",
+   "state": "ready"
+  },
+  {
+   "provider": "glmflash",
+   "vendor": "zai",
+   "slug": "zeinobusiness",
+   "account": "zai:zeinobusiness",
+   "state": "ready"
+  },
+  {
+   "provider": "luna",
+   "vendor": "codex",
+   "slug": "chatgpt",
+   "account": "chatgpt",
+   "state": "ready"
+  },
+  {
+   "provider": "terra",
+   "vendor": "codex",
+   "slug": "chatgpt",
+   "account": "chatgpt",
+   "state": "ready"
+  },
+  {
+   "provider": "sol",
+   "vendor": "codex",
+   "slug": "chatgpt",
+   "account": "chatgpt",
+   "state": "ready"
+  },
+  {
+   "provider": "astra",
+   "vendor": "codex",
+   "slug": "chatgpt",
+   "account": "chatgpt",
+   "state": "ready"
+  },
+  {
+   "provider": "codex",
+   "vendor": "codex",
+   "slug": "chatgpt",
+   "account": "chatgpt",
+   "state": "ready"
+  },
+  {
+   "provider": "deepseek",
+   "vendor": "deepseek",
+   "slug": "deepseek-solo",
+   "account": "deepseek",
+   "state": "ready"
+  },
+  {
+   "provider": "gemini",
+   "vendor": "gemini",
+   "slug": "zeinobusiness",
+   "account": "account_business",
+   "state": "ready"
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "default_provider_role": "timi",
+ "new_tab_effort": {},
+ "providers": {
+  "astra": {
+   "effort": "max",
+   "guid": "07f36859-af36-5ca5-8b47-7d1e25f2782a",
+   "guid_source": "minted",
+   "label": "GPT Astra",
+   "mark": "✚",
+   "tint": "#F59E0B",
+   "tint_light": "#B45309"
+  },
+  "codex": {
+   "effort": "",
+   "guid": "8517f1c9-3ead-5b5c-a38c-c6308ab5ebfe",
+   "guid_source": "inherited",
+   "label": "Codex",
+   "mark": "■",
+   "tint": "#8A8F98",
+   "tint_light": "#6B7280"
+  },
+  "deepseek": {
+   "effort": "max",
+   "guid": "a2bf2c93-7dba-547b-b08b-02157fbf65a8",
+   "guid_source": "inherited",
+   "label": "DeepSeek",
+   "mark": "≋",
+   "tint": "#4D6BFE",
+   "tint_light": "#3A55E0"
+  },
+  "deepseek-reasoner": {
+   "effort": "max",
+   "guid": "5db552b3-2f8a-5a1a-8106-78bdb79e6240",
+   "guid_source": "minted",
+   "label": "DeepSeek Thinking",
+   "mark": "≣",
+   "tint": "#7C5CFC",
+   "tint_light": "#5B3FE0"
+  },
+  "fable": {
+   "effort": "xhigh",
+   "guid": "41d6c4b8-07d6-505e-888c-0a791fe29656",
+   "guid_source": "inherited",
+   "label": "Fable",
+   "mark": "▲",
+   "tint": "#3E9AD6",
+   "tint_light": "#1F7FB8"
+  },
+  "gemini": {
+   "effort": "high",
+   "guid": "7b4f1c72-13e8-538b-b95c-b1ad486fffad",
+   "guid_source": "minted",
+   "label": "Gemini Flash",
+   "mark": "♊",
+   "tint": "#388BFD",
+   "tint_light": "#1A73E8"
+  },
+  "glm": {
+   "effort": "max",
+   "guid": "2c984003-f924-5c7f-bcba-f6376e932b31",
+   "guid_source": "inherited",
+   "label": "GLM 1M",
+   "mark": "✦",
+   "tint": "#D946A6",
+   "tint_light": "#A21567"
+  },
+  "glmflash": {
+   "effort": "high",
+   "guid": "36de5436-b748-5508-8364-333eb1423c6c",
+   "guid_source": "minted",
+   "label": "GLM Flash",
+   "mark": "↯",
+   "tint": "#C026D3",
+   "tint_light": "#86198F"
+  },
+  "luna": {
+   "effort": "max",
+   "guid": "fbcd60ad-656a-593a-a9eb-2b5233bb88a8",
+   "guid_source": "inherited",
+   "label": "GPT Luna",
+   "mark": "◐",
+   "tint": "#6EA8FE",
+   "tint_light": "#1F6FEB"
+  },
+  "opus": {
+   "effort": "medium",
+   "guid": "ea901b30-90a4-5265-b66e-6322d28bb0d4",
+   "guid_source": "inherited",
+   "label": "Opus",
+   "mark": "✳",
+   "tint": "#D97757",
+   "tint_light": "#C2410C"
+  },
+  "sol": {
+   "effort": "xhigh",
+   "guid": "974bb655-9ecd-55e1-ad49-147de9e680f3",
+   "guid_source": "inherited",
+   "label": "GPT Sol",
+   "mark": "●",
+   "tint": "#10A37F",
+   "tint_light": "#0E8C6D"
+  },
+  "sonnet": {
+   "effort": "xhigh",
+   "guid": "e6d5df5c-9daa-50a3-89e1-58fd1fda2096",
+   "guid_source": "inherited",
+   "label": "Sonnet",
+   "mark": "❖",
+   "tint": "#8C6FD6",
+   "tint_light": "#6D4FC7"
+  },
+  "terra": {
+   "effort": "max",
+   "guid": "473e47e9-fd43-5efd-9968-24c9b4d72e2f",
+   "guid_source": "inherited",
+   "label": "GPT Terra",
+   "mark": "▼",
+   "tint": "#E0803C",
+   "tint_light": "#B45309"
+  }
+ },
+ "schema_version": 1,
+ "shortcuts": {
+  "1": "luna",
+  "2": "terra",
+  "3": "sol",
+  "4": "astra",
+  "d": "deepseek",
+  "f": "fable",
+  "g": "glmflash",
+  "s": "sonnet",
+  "t": "opus"
+ },
+ "source": "installed Linux core (/home/zeino/.local/share/timi/timi.py) + uuid5 namespace 6c6d6931-0000-4a11-8a11-74696d692e77; guid_source records which values the guest's live wt-settings already carries"
+}

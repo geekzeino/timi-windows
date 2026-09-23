@@ -1,0 +1,372 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{ea901b30-90a4-5265-b66e-6322d28bb0d4}"
+            },
+            "id": "User.newTab.DE93FA99"
+        },
+        {
+            "command": {
+                "action": "adjustFontSize",
+                "delta": 1
+            },
+            "id": "Timi.FontUp"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{e6d5df5c-9daa-50a3-89e1-58fd1fda2096}"
+            },
+            "id": "User.newTab.535DABE2"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{fbcd60ad-656a-593a-a9eb-2b5233bb88a8}"
+            },
+            "id": "User.newTab.BB413953"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{7b4f1c72-13e8-538b-b95c-b1ad486fffad}"
+            },
+            "id": "Timi.newTab.Gemini"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{41d6c4b8-07d6-505e-888c-0a791fe29656}"
+            },
+            "id": "User.newTab.7ECDF7E8"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{a2bf2c93-7dba-547b-b08b-02157fbf65a8}"
+            },
+            "id": "User.newTab.7830282E"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{2c984003-f924-5c7f-bcba-f6376e932b31}"
+            },
+            "id": "User.newTab.6D5169C5"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{473e47e9-fd43-5efd-9968-24c9b4d72e2f}"
+            },
+            "id": "User.newTab.A145BD69"
+        },
+        {
+            "command": {
+                "action": "closeTab"
+            },
+            "id": "User.closeTab.0"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{974bb655-9ecd-55e1-ad49-147de9e680f3}"
+            },
+            "id": "User.newTab.8C02F4ED"
+        },
+        {
+            "command": {
+                "action": "adjustFontSize",
+                "delta": -1
+            },
+            "id": "Timi.FontDown"
+        },
+        {
+            "command": "resetFontSize",
+            "id": "Timi.FontReset"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{ea901b30-90a4-5265-b66e-6322d28bb0d4}",
+    "firstWindowPreference": "persistedWindowLayout",
+    "keybindings": [
+        {
+            "id": "Timi.FontReset",
+            "keys": "ctrl+alt+shift+f8"
+        },
+        {
+            "id": "User.newTab.DE93FA99",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "Terminal.PrevTab",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Timi.FontUp",
+            "keys": "ctrl+alt+shift+f9"
+        },
+        {
+            "id": "Timi.FontDown",
+            "keys": "ctrl+alt+shift+f10"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.newTab.535DABE2",
+            "keys": "ctrl+s"
+        },
+        {
+            "id": "User.newTab.6D5169C5",
+            "keys": "ctrl+g"
+        },
+        {
+            "id": "User.newTab.7830282E",
+            "keys": "ctrl+d"
+        },
+        {
+            "id": "User.newTab.BB413953",
+            "keys": "ctrl+1"
+        },
+        {
+            "id": "User.newTab.A145BD69",
+            "keys": "ctrl+2"
+        },
+        {
+            "id": "User.newTab.8C02F4ED",
+            "keys": "ctrl+3"
+        },
+        {
+            "id": "User.closeTab.0",
+            "keys": "ctrl+w"
+        },
+        {
+            "id": "Terminal.NextTab",
+            "keys": "ctrl+tab"
+        },
+        {
+            "id": "Terminal.CloseWindow",
+            "keys": "ctrl+q"
+        },
+        {
+            "id": "User.newTab.7ECDF7E8",
+            "keys": "ctrl+f"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": {
+                "dark": "Timi Dark",
+                "light": "Timi Light"
+            }
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{b2bae5f8-6d78-5acf-b603-5f5f148607f9}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{9fe68f3e-2de6-59bd-9ee7-99b69db63759}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{6075b3f5-318e-5c53-9dbf-fe635988c90e}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "\"C:\\Users\\Ahmad\\Timi\\TimiLane.exe\" opus",
+                "guid": "{ea901b30-90a4-5265-b66e-6322d28bb0d4}",
+                "hidden": false,
+                "icon": "\u2733",
+                "name": "Timi - Opus",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#D97757",
+                "tabTitle": "\u2733 Opus"
+            },
+            {
+                "commandline": "\"C:\\Users\\Ahmad\\Timi\\TimiLane.exe\" sonnet",
+                "guid": "{e6d5df5c-9daa-50a3-89e1-58fd1fda2096}",
+                "hidden": false,
+                "icon": "\u2756",
+                "name": "Timi - Sonnet",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#8C6FD6",
+                "tabTitle": "\u2756 Sonnet"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the DeepSeek lane runs ds-claude-inline on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{a2bf2c93-7dba-547b-b08b-02157fbf65a8}",
+                "hidden": false,
+                "icon": "\u224b",
+                "name": "Timi - DeepSeek",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#4D6BFE",
+                "tabTitle": "\u224b DeepSeek"
+            },
+            {
+                "commandline": "\"C:\\Users\\Ahmad\\Timi\\TimiLane.exe\" fable",
+                "guid": "{41d6c4b8-07d6-505e-888c-0a791fe29656}",
+                "hidden": false,
+                "icon": "\u25b2",
+                "name": "Timi - Fable",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#3E9AD6",
+                "tabTitle": "\u25b2 Fable"
+            },
+            {
+                "commandline": "\"C:\\Users\\Ahmad\\Timi\\TimiLane.exe\" gemini",
+                "guid": "{7b4f1c72-13e8-538b-b95c-b1ad486fffad}",
+                "hidden": false,
+                "icon": "\u264a",
+                "name": "Timi - Gemini",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#388BFD",
+                "tabTitle": "\u264a Gemini"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the GPT Luna lane runs timi-codex (codex CLI) on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{fbcd60ad-656a-593a-a9eb-2b5233bb88a8}",
+                "hidden": false,
+                "icon": "\u25d0",
+                "name": "Timi - GPT Luna",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#6EA8FE",
+                "tabTitle": "\u25d0 GPT Luna"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the GPT Terra lane runs timi-codex (codex CLI) on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{473e47e9-fd43-5efd-9968-24c9b4d72e2f}",
+                "hidden": false,
+                "icon": "\u25bc",
+                "name": "Timi - GPT Terra",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#E0803C",
+                "tabTitle": "\u25bc GPT Terra"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the GPT Sol lane runs timi-codex (codex CLI) on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{974bb655-9ecd-55e1-ad49-147de9e680f3}",
+                "hidden": false,
+                "icon": "\u25cf",
+                "name": "Timi - GPT Sol",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#10A37F",
+                "tabTitle": "\u25cf GPT Sol"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the Codex lane runs codex CLI on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{8517f1c9-3ead-5b5c-a38c-c6308ab5ebfe}",
+                "hidden": false,
+                "icon": "\u25a0",
+                "name": "Timi - Codex",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#8A8F98",
+                "tabTitle": "\u25a0 Codex"
+            },
+            {
+                "commandline": "cmd.exe /k \"echo Timi (Windows): the GLM 1M lane runs zai on Linux, which is not installed on this machine. This tab is a plain shell. & echo.\"",
+                "guid": "{2c984003-f924-5c7f-bcba-f6376e932b31}",
+                "hidden": false,
+                "icon": "\u2726",
+                "name": "Timi - GLM 1M",
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#D946A6",
+                "tabTitle": "\u2726 GLM 1M"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#1B1A19",
+            "black": "#2A2724",
+            "blue": "#61AFEF",
+            "brightBlack": "#6E6A64",
+            "brightBlue": "#85C1F5",
+            "brightCyan": "#7BCBD4",
+            "brightGreen": "#B5D99C",
+            "brightPurple": "#A98BE8",
+            "brightRed": "#F2807A",
+            "brightWhite": "#F7F5F1",
+            "brightYellow": "#F0D399",
+            "cursorColor": "#D97757",
+            "cyan": "#56B6C2",
+            "foreground": "#E8E6E3",
+            "green": "#98C379",
+            "name": "Timi Dark",
+            "purple": "#8C6FD6",
+            "red": "#E06C75",
+            "selectionBackground": "#3D3A36",
+            "white": "#D5D2CD",
+            "yellow": "#E5C07B"
+        },
+        {
+            "background": "#FAF9F7",
+            "black": "#3A3835",
+            "blue": "#2A6DB5",
+            "brightBlack": "#8A8680",
+            "brightBlue": "#3A82CE",
+            "brightCyan": "#188C8C",
+            "brightGreen": "#5A9E40",
+            "brightPurple": "#9160C4",
+            "brightRed": "#D4553F",
+            "brightWhite": "#2B2A28",
+            "brightYellow": "#B07C10",
+            "cursorColor": "#C25E3F",
+            "cyan": "#0E7C7C",
+            "foreground": "#2B2A28",
+            "green": "#4B8B34",
+            "name": "Timi Light",
+            "purple": "#7A4FB0",
+            "red": "#C2402F",
+            "selectionBackground": "#E4DED4",
+            "white": "#5E5B56",
+            "yellow": "#9A6A00"
+        }
+    ],
+    "theme": "system",
+    "themes": []
+}
